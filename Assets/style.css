@@ -30,10 +30,9 @@ header{
     border-radius: 50%;
 }
 .menu__atalhos{
-   
-    margin-right: 15px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 .menu__atalhos__links{
     color: #0A6073;
@@ -223,4 +222,5 @@ footer {
         .fone{
             font-size: large;
         }
+        
     }
