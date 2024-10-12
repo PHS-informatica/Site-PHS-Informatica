@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+ 
+ 
+}
+
+
+/* HEADER */
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#BFBFBF;
+}
+.cabecalho{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}    
+.logotipo__foto{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.menu__atalhos{
+   
+    margin-right: 15px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+.menu__atalhos__links{
+    color: #0A6073;
+    text-decoration: none;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+}
+.menu__atalhos :hover{
+    background-color:#021C26;
+    color:#73D9D9;
+    border-radius: 10px;
+    
+    
+          
+}
+
+
+
+/* MAIN */
+
+main{
+    position:relative;
+    height: 450px;
+    width: 100%;
+    background-color: #021C26;
+}
+
+.titulo{
+    padding-top: 20px;
+    text-align: center;
+    color:#BFBFBF;
+}
+
+.subtitulo{
+    padding-top: 20px;
+    text-align: center;
+    color:#BFBFBF;
+}
+
+/* .titulo__servicos{
+    padding-top: 20px;
+    text-align: center;
+    color:#73D9D9;
+} */
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #BFBFBF;
+    text-align: center;
+    padding-left: 0;
+    
+       
+}
+
+.link_capa{
+    color: #BFBFBF;
+    text-decoration: none;
+}
+
+.capa_servicos{
+    padding-top: 30px;
+    height: 250px;
+    width: auto;
+    cursor: pointer;
+}
+
+/* SITES: */
+.titulo_sites,.subtitulo_sites{
+    padding-top: 20px;
+    text-align: center;
+    color:#BFBFBF;
+}
+.produto_institucional, .produto_ecommerce, .produto_portifolio, .produto{
+    margin: 30px 30px 30px 30px;
+    color:#BFBFBF;
+    text-align: justify;
+    background-color:#021C26;
+}
+
+/* MANUTENÇÃO DE PC */
+
+.tabela{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+    list-style-type:circle;
+}
+
+
+
+
+/* QUEM SOMOS: */
+
+.sobre, .inicio{
+    margin: 30px 30px 30px 30px;
+    color:#BFBFBF;
+    text-align: justify;
+    background-color:#021C26;
+}
+
+/* CONTATO */
+.main_contato{
+    position:relative;
+    height: 1320px;
+    width: 100%;
+    background-color: #021C26;
+    
+   
+}
+
+.form_container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.fone{
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:green
+    
+     
+    
+}
+
+/* FOOTER */
+footer {
+    padding-top: 20px;
+    position: absolute;
+    background-color:#BFBFBF;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 30px;
+}
+.developer{
+    padding-top: 10px;
+}
+
+@media(max-width: 850px){
+  
+/* MAIN     */
+  
+    .servicos{
+        flex-direction: column;
+        padding-top: 40PX;
+    }
+
+    main{
+        height: 900px;
+    }
+
+    
+
+
+}
+
+@media(max-width: 450px){
+  
+    /* MAIN     */
+      
+        .servicos{
+            flex-direction: column;
+            padding-top: 20PX;
+        }
+    
+        main{
+            height: 950px;
+        }
+    
+        .main_contato{
+            height: 1400px;
+        }
+        .fone{
+            font-size: large;
+        }
+    }
