@@ -32,7 +32,6 @@ header{
 .menu__atalhos{
    
     margin-right: 15px;
-    gap: 15px;
     display: flex;
     align-items: center;
 }
