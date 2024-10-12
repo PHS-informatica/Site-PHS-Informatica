@@ -145,7 +145,7 @@ main{
 /* CONTATO */
 .main_contato{
     position:relative;
-    height: 1320px;
+    height: 1350px;
     width: 100%;
     background-color: #021C26;
     
@@ -161,7 +161,7 @@ main{
 }
 
 .fone{
-    font-size:x-large;
+    font-size:large;
     display: flex;
     justify-content: center;
     text-align: center;
