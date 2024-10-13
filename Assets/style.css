@@ -1,7 +1,18 @@
+html{
+    height: 100%;
+ 
+}
+
 *{
     margin: 0;
+    box-sizing:content-box;
+   
  
- 
+}
+body{
+    
+    min-height: 100vh;
+    
 }
 
 
@@ -58,10 +69,11 @@ header{
 /* MAIN */
 
 main{
-    position:relative;
-    height: 450px;
+    min-height: 0;
     width: 100%;
     background-color: #021C26;
+    padding-bottom: 100px;
+    
 }
 
 .titulo{
@@ -71,6 +83,8 @@ main{
 }
 
 .subtitulo{
+    margin-left: 10px;
+    margin-right: 10px;
     padding-top: 20px;
     text-align: center;
     color:#BFBFBF;
@@ -123,6 +137,8 @@ main{
 /* MANUTENÇÃO DE PC */
 
 .tabela{
+    margin-left: 30px;
+    padding-top: 20px;
     color: aqua;
     display: flex;
     flex-direction: column;
@@ -136,21 +152,23 @@ main{
 /* QUEM SOMOS: */
 
 .sobre, .inicio{
-    margin: 30px 30px 30px 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     color:#BFBFBF;
     text-align: justify;
     background-color:#021C26;
 }
 
 /* CONTATO */
-.main_contato{
+/* .main_contato{
     position:relative;
     height: 1350px;
     width: 100%;
     background-color: #021C26;
     
    
-}
+} */
 
 .form_container{
     padding-top: 20px;
@@ -174,8 +192,9 @@ main{
 
 /* FOOTER */
 footer {
+    
     padding-top: 20px;
-    position: absolute;
+    
     background-color:#BFBFBF;
     height: 100px;
     width: 100%;
@@ -194,15 +213,21 @@ footer {
 @media(max-width: 850px){
   
 /* MAIN     */
+
+main{
+    min-height: 600px;
+    
+    
+}
   
     .servicos{
         flex-direction: column;
-        padding-top: 40PX;
+        padding-top: 20PX;
     }
 
-    main{
+    /* main{
         height: 900px;
-    }
+    } */
 
     
 
@@ -218,13 +243,13 @@ footer {
             padding-top: 20PX;
         }
     
-        main{
-            height: 1000px;
+        /* main{
+            height: 1150px;
         }
     
         .main_contato{
             height: 1400px;
-        }
+        } */
         .fone{
             padding-top:20px ;
             font-size:medium;
